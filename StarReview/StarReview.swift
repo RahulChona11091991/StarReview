@@ -149,7 +149,7 @@ public final class StarReview: UIControl {
         super.init(coder: aDecoder)
     }
     
-    init(){
+   public init(){
         super.init(frame: CGRect(x: 0, y: 0, width: 100, height: 30))
         self.backgroundColor = UIColor.clear
         self.isUserInteractionEnabled = true
